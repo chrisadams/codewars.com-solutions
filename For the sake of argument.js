@@ -1,6 +1,13 @@
-/* Description:
+/* 
 
-Write a function named numbers that returns true if all the parameters it is passed are numbers. Otherwise, the function should return false. The function should accept any number of parameters.
+This is the solution I came up with for the kata 'For the sake of argument':
+http://www.codewars.com/dojo/katas/5258b272e6925db09900386a
+
+Description:
+
+Write a function named numbers that returns true if all the parameters
+it is passed are numbers. Otherwise, the function should return false.
+The function should accept any number of parameters.
 
 Example usage:
 
