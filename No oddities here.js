@@ -14,5 +14,5 @@ function noOdds( values )
 */
 
 function noOdds( values ){
-  return values.filter(function(num) { if (num % 2 == 0) return true; else return false; });
+  return values.filter(function(num) { num % 2 == 0 } );
 }
