@@ -17,14 +17,11 @@ locate(['a','b',['c','d',['e']]],'f'); // should return false
 
 var locate = function (arr, value) {
   var result = false;
-  console.log(arr);
   arr.forEach( function(elem) {
     if (elem === value) {
-      console.log(elem);
       result = true;
     }
     else if (typeof elem == 'object') {
-      console.log(elem);
       result = (locate(elem,value) || result);
     }
   });
